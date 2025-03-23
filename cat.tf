@@ -1,11 +1,11 @@
 resource "local_file" "cat"{
-  filename = "/home/arunjohn/cat.txt"
-  content = "I am a pussy cat"
-  file_permission = "0700"
+  filename = var.filename
+  content = var.content
+  file_permission = var.file_permission
 }
 
-resource "random_pet" "cat"{
-  prefix = "Mr"
-  separator = "."
-  length = "1"
+resource "random_pet" "my-pet"{
+  prefix = var.prefix
+  separator = var.seperator
+  length = var.length
 }
