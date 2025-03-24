@@ -1,0 +1,6 @@
+filename = "/home/arunjohn/cat.txt"
+content ="I am a white pussy cat,csk"
+file_permission = "0700"
+prefix = "Mr"
+seperator = "."
+length = "1"
